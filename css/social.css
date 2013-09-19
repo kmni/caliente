@@ -1,0 +1,24 @@
+ul#facebook {list-style-type: none; padding: 0; margin: 0;}
+#facebook li {display: block; width: 100%; background: url(../img/line-shadow.png) center bottom no-repeat; padding: 0 0 24px 0; margin-bottom: 10px;}
+#facebook li a {color: #B25432; text-decoration: underline;}
+#facebook li a:hover {text-decoration: none;}
+#facebook li div.header {}
+#facebook li div.header a.user_image {display: block; float: left; width: 100%; border: 1px solid #543f0e; max-width: 48px; height: auto; margin-right: 9px;}
+#facebook li div.header a.user_image img {width: 100%;}
+#facebook li div.header a.user_name {display: block; width: 100%; max-width: 276px; font: normal 0.875em/1.142857em 'Raleway', sans-serif; color: #291318; text-decoration: none; padding-top: 5px;}
+#facebook li div.header span.fb_date {display: block; font: normal 1.5em/0.8333em 'Raleway', sans-serif; color: #478597;}
+#facebook li .content {font: normal 0.875em/1.142857em 'Palatino', sans-serif; color: #60584f; padding: 0 0 14px 0; margin: 0;}
+#facebook li .content p {font: normal 1em/1.142857em 'Palatino', sans-serif; color: #60584f; padding: 16px 18px 0 0; margin: 0;}
+#facebook li div.footer {font: bold 14px/18px 'Lato', sans-serif; color: #fff; padding: 6px 10px 8px 22px;}
+#facebook li div.footer a.author {color: #fff; text-decoration: underline; margin: 0;}
+#facebook li div.footer abbr {color: #fff; padding: 0; margin: 0;}
+#facebook li a.image {display: block; float: right; width: 100%; max-width: 101px; text-align: center; text-decoration: none; border: 1px solid #bfb19f; margin: 20px 0 0 20px;}
+#facebook li div.link {padding: 5px 18px 0 18px;}
+#facebook li div.picture {text-align: right;}
+#facebook li.loading {width: 100%; background: none; border-radius: 0; box-shadow: none; text-align: center; padding: 0; margin: 0 0 50px 0;}
+
+
+ul#facebook_albums {display: block; list-style-type: none; padding: 0; margin: 0;}
+#facebook_albums li {display: block; float: left; width: 243px; text-align: center; padding-bottom: 10px;}
+#facebook_albums a {color: #B25432; text-decoration: underline;}
+#facebook_albums a.image {display: block; text-decoration: none;}
