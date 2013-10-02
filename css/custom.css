@@ -6,22 +6,11 @@ body {
     font-family: 'Palatino', sans-serif;
     background: url(../img/bg_body.jpg)}
 
-#wraph {
-    position: relative}
+#wraph {position: relative}
 
-#logo {
-    position: absolute;
-    top: 0px; left: 0px;
-    height: 285px;
-    width: 100%;
-    background: url(../img/logo.png) top center no-repeat}
-#logo a {
-    position: absolute;
-    top: 73px;
-    left: 483px;
-    display: block;
-    width: 600px;
-    height: 165px;}
+#header_container {position: absolute; top: 0; left: 0; width: 100%; min-width: 1000px; text-align: center; background: url(../img/logo.png) center top no-repeat;}
+#logo {position: relative; width: 100%; max-width: 1000px; height: 285px; margin: 0 auto;}
+#logo a {position: absolute; top: 73px; left: 0; display: block; width: 100%; height: 165px;}
 
 #main_content {
     background: #fff9d5;
@@ -91,16 +80,17 @@ h1 {
     margin: 0px auto;
     background: #763126;
     color: #d2c074;
-    padding: 18px 60px;
+    padding: 18px 30px;
     font-family: 'Raleway', sans-serif;
-    width: 912px}
+    width: 944px}
+#footer .container {width: 100%; padding: 0; margin: 0;}
 #footer .page_name {
     font-size: 26px;
     padding-bottom: 10px}
 #footer a {
     font-weight: bold;
     color: #be7305;}
-
+#footer_address {max-width: 630px;}
 
 .box {padding: 0px 10px;}
 .well_container {border-top: 5px solid #f2e092; padding: 0; margin-top: -35px; margin-right: 10px;}
