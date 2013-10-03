@@ -15,18 +15,15 @@ Social = {
         //$(".fb_date").timeago();
         $('.fb_date').each(function(){
           var e       = $(this),
-              dateStr = e.text() ? e.text() : false;
-              if (dateStr)
-              {
-                var m_names   = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
-                var currDate  = new Date(),
-                    currYear  = currDate.getYear(),
-                    date      = new Date(dateStr),
-                    day       = date.getDate(),
-                    month     = date.getMonth(),
-                    year      = date.getYear();
-                e.text(m_names[month]+' '+day+''+(year < currYear ? ' '+year : ''));
-              }
+          dateStr = e.text() ? e.text() : false;
+          if (dateStr)
+          {
+            var m_names   = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+            var split = dateStr.split("-");
+            var month = m_names[parseInt(split[1]) - 1];
+            var day = split[2].split("T")[0];
+            e.text(month + " " + day);
+          }
         });
         $("#facebook").autolink();
         // initialize Masonry
