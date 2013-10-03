@@ -20,20 +20,12 @@ Social = {
           {
             var m_names   = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
             var split = dateStr.split("-");
-            var month = m_names[parseInt(split[1]) - 1];
+            var month = m_names[parseInt(split[1], 10) - 1];
             var day = split[2].split("T")[0];
             e.text(month + " " + day);
           }
         });
         $("#facebook").autolink();
-        // initialize Masonry
-        /*$fb_news.masonry({
-          itemSelector: 'li',
-          'gutter':     20,
-          isFitWidth:   false,
-          singleMode:   false,
-          isAnimated:   false
-        });*/
       });
 
     });

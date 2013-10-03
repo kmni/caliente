@@ -182,7 +182,6 @@
     <script src="./js/jquery.tmpl.js"></script>
     <script src="./js/twitter-text.js"></script>
     <script src="./js/social.js"></script>
-    <script src="./js/masonry.pkgd.min.js"></script>
     <script src="./js/jquery.imagesloaded.min.js"></script>
 
     <script id="facebook_template" type="text/x-jquery-tmpl">
@@ -196,9 +195,6 @@
             <div class="content clearfix">
                 {{if picture}}
                     <a class="image" href="${link}" target="_blank"><img alt="picture" src="${Social.facebookPictureURL(picture)}"></a>
-                {{/if}}
-                {{if description}}
-                    <p>${description}</p>
                 {{/if}}
                 {{if caption}}
                     <p>{{html caption}}</p>
